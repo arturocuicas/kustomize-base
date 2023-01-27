@@ -4,7 +4,5 @@ kind: Kustomization
 resources:
   - ../../../base/app
 
-namePrefix: dev-
-
 patchesStrategicMerge:
   - hpa.yaml
